@@ -7,6 +7,10 @@
   background: #3aafa9;
 }
 
+.linkc{
+  color: #000;
+}
+
 body {
   background-color: #3aafa9;
 }
@@ -27,7 +31,12 @@ body {
 .headingew1 {
   font-family: "Exo", sans-serif;
   color: white;
-  font-size: 60px;
+  font-size: 52px;
+}
+.headingew5 {
+  font-family: "Exo", sans-serif;
+  color: white;
+  font-size: 55px;
 }
 
 .headingew2 {
