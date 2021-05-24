@@ -7,7 +7,7 @@
   background: #3aafa9;
 }
 
-.linkc{
+.linkc {
   color: #000;
 }
 
@@ -47,6 +47,7 @@ body {
 
 .headingew3 {
   font-size: 19px;
+  font-family: "Exo", sans-serif;
 }
 
 .carousel {
@@ -212,7 +213,7 @@ body {
 #coin .front {
   transform: translateZ(1px);
   border-radius: 50%;
-  background-color: red;
+  background-color: #dc1c13;
 }
 
 #coin .back {
