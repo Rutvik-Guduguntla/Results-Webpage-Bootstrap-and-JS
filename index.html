@@ -37,11 +37,15 @@
 
 
 
-
+   
+        
+    
     <div class="container">
+      
         <div id="resultmodal" class="modal fade show" role="dialog">
             <div class="modal-dialog modal-lg" role="content">
                 <div class="modal-content">
+                   
                     <div class="modal-header">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item">
@@ -50,6 +54,9 @@
                             <li class="nav-item">
                               <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Result</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-none" id="message-tab" data-toggle="tab" href="#message" role="tab" aria-controls="message" aria-selected="false">Message</a>
+                              </li>
                           </ul>   
                           <button type="button" class="close" data-dismiss="modal">&times;</button>                        
                     </div>
@@ -72,10 +79,31 @@
                                 </form>
                                 
                             </div>
-                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"> 
-                                <p class="visible" id="changeres">Enter your register number to check results!!</p>
+                            <div class="tab-pane fade" id="message" role="tabpanel" aria-labelledby="message-tab">
+                               
+                                <div id="confetti-wrapper" class="invisible">
 
-                                <p id="status"></p>
+                                </div>
+                                <div class="alert alert-success notvis " id="sel" role="alert" >
+
+                                    <h4 class="alert-heading">Well done!</h4>
+                                    <p>Congratulations! Your Journey with RCS is all set to begin.Looking forward to meet you!</p>
+                                    <hr>
+                                    <p class="mb-0">Regards, <br> Robotics Club @ Sastra</p>
+                                </div>
+                            
+                                <div class="alert alert-warning notvis" id="notsel" role="alert" >
+                                    <h4 class="alert-heading">Hard Luck!</h4>
+                                    <p>We Thank you again for your interest in RCS.We appreciate the time you've spent with us during the recruitment process. We are impressed with your efforts and wish you the best in future.</p>
+                                    <hr>
+                                    <p class="mb-0">Regards, <br> Robotics Club @ Sastra</p>
+                                </div> 
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                
+                                <p class="visible" id="changeres">Enter your register number to check results!!</p>
+                                    
+                               
                                 <div id="coin-flip-cont" class="invisible" >
                                     <div id="coin">
                                     <div class=" front">
@@ -100,19 +128,23 @@
                                     </div>
                                     </div>
                                     </div>
+                                   
+                                    
                             </div>
-                          </div>
                             
+                          </div>
+                          
 
                     </div>
-    
+                    <!-- <p id="status" class="headingew6 mr-2 ml-2"></p> -->
                    
                 </div>      
             </div>
         </div>
-
+        
 
         <div class="container">
+           
             <div class="row row-content">
                 <div class="col-9 col-sm-12">
                     <h5 class="headingew mt-5">WELCOME TO THE</h1>
